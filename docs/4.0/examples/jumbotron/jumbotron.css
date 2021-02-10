@@ -1,4 +1,31 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  padding-top: 3.5rem;
+  padding-top: 0rem;
+}
+.jumbotron{
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
 }
