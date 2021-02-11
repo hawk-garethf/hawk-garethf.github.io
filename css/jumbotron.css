@@ -30,22 +30,10 @@ body {
   z-index: 1;
 }
 
+.container,
 .underimg{
   background-image:url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat:no-repeat;
   background-size:contain;
-  background-position:center; 
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; 
-  object-fit: contain;  
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  flex: 1; 
+  background-position:center;
 }
