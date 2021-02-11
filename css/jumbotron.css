@@ -29,3 +29,10 @@ body {
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
 }
+
+.underimg{
+  background-image:url('https://hawk-garethf.github.io/gbox_mod3.png');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center; 
+}
