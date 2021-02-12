@@ -35,6 +35,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 500px;
-  padding-bottom: 500px;
+}
+
+.padding-mod3{
+  padding: 500px 0;
 }
