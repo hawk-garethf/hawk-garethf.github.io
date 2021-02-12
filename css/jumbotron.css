@@ -2,6 +2,8 @@
 body {
   padding-top: 0rem;
 }
+
+/* HERO */
 .jumbotron{
   text-align: center;
   position: relative;
@@ -14,8 +16,6 @@ body {
   position: relative;
   z-index: 2;
 }
-
-
 
 #video-background{ 
   position: absolute;
@@ -30,6 +30,15 @@ body {
   z-index: 1;
 }
 
+/* MOD2 */
+.underimg-mod3{
+  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* MOD3 */
 .underimg-mod3{
   background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat: no-repeat;
