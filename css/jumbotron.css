@@ -30,7 +30,6 @@ body {
   z-index: 1;
 }
 
-.container,
 .underimg{
   background-image:url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat:no-repeat;
