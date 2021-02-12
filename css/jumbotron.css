@@ -33,7 +33,7 @@ body {
 .underimg{
   background-image:url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat:no-repeat;
-  background-size:contain;
+  background-size: cover;
   background-position:center;
   min-height: 100%;
   min-width: 100%;
