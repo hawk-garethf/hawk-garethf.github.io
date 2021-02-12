@@ -30,10 +30,10 @@ body {
   z-index: 1;
 }
 
-.underimg{
-  background-image:url('https://hawk-garethf.github.io/img/gbox_mod3.png');
-  background-repeat:no-repeat;
+.underimg-mod3{
+  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   max-height: fit-content;
 }
