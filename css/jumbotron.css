@@ -42,7 +42,7 @@ body {
 .underimg-mod3{
   background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat: no-repeat;
-  background-size: inherit;
+  background-size: contain;
   background-position: center;
 }
 
