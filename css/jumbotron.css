@@ -37,6 +37,7 @@ body {
   background-size: cover;
   background-position: top right;
   display: block;
+  height: 1141px;
 }
 .padding-mod2{
   padding-top: 100px;
