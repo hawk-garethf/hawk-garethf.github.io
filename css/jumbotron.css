@@ -38,6 +38,10 @@ body {
   background-position: top right;
   display: block;
 }
+.padding-mod2{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 /* MOD3 */
 .underimg-mod3{
