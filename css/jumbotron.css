@@ -35,7 +35,8 @@ body {
   background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
+  background-position: top right;
+  display: block;
 }
 
 /* MOD3 */
