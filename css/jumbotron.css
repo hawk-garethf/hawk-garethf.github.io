@@ -37,8 +37,8 @@ body {
   background-size: cover;
   background-position: top right;
   display: block;
-  height: 1141px;
-  width: 1400px;
+  height: 100%;
+  width: 100%;
 }
 .padding-mod2{
 
