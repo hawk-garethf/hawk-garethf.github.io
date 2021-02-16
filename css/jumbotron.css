@@ -66,15 +66,24 @@ body {
   width: 225px;
   height: 225px;
 }
-.block{
-  display: block;
-}
+
 .padding-left-mod3{
   padding-left: 250px;
 }
 
-@media (min-width: 768px){
-  .max-width-50per{
-    max-width: 50% !important;
-  }
+.text-align-middle-pad{
+  padding-top: 80px !important;
+  padding-left: 40px !important;
+}
+
+.pad-bottom-mod3{
+  padding-bottom: 40px;
+}
+
+/* MOD4 */
+.underimg-mod4{
+  background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
