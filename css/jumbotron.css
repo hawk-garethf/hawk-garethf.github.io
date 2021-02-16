@@ -72,6 +72,10 @@ body {
 .padding-left-mod3{
   padding-left: 250px;
 }
-.max-width-50per{
-  max-width: 50%;
+
+@media (min-width: 768px)
+{
+  .max-width-50per{
+    max-width: 50%;
+  }
 }
