@@ -72,3 +72,6 @@ body {
 .padding-left-mod3{
   padding-left: 250px;
 }
+.max-width-50per{
+  max-width: 50%;
+}
