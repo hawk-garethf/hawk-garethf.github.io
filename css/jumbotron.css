@@ -91,7 +91,15 @@ body {
   background-position: center;
 }
 
-
 .height-270{
   height: 270px;
+}
+
+.pad-top-50-mod4{
+  padding-top: 50px;
+}
+
+/* MOD5 */
+.padding-mod5-text{
+  padding-top: 50px;
 }
