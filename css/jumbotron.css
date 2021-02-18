@@ -72,7 +72,7 @@ body {
 }
 
 .text-align-middle-pad{
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .pad-bottom-mod3{
@@ -100,6 +100,10 @@ body {
 }
 
 /* MOD5 */
+.padding-top-bottom-mod5{
+  padding: 200px 0;
+}
+
 .padding-mod5-text{
   padding-top: 150px;
 }
