@@ -87,7 +87,7 @@ body {
 .underimg-mod4{
   background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: fill;
   background-position: center;
 }
 
