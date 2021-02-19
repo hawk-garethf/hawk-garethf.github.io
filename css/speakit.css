@@ -47,10 +47,21 @@ body {
   overflow: hidden;
   height: 400px;
   padding: 8rem 2rem;
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
 }
 .push-spaces
 {
     height: 100px;
+}
+.container {
+  position: relative;
+  z-index: 2;
 }
 
 /* MOD2 */
