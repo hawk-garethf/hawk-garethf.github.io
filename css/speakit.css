@@ -8,6 +8,7 @@ body {
 }
 
 /* HERO */
+/*
 .jumbotron{
   text-align: center;
   position: relative;
@@ -32,6 +33,19 @@ body {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
+}
+*/
+
+.jumbotron{
+  background: url("https://hawk-garethf.github.io/img/speakit_hero_bg_1440x1020x2.png") no-repeat center center; 
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+.push-spaces
+{
+    height: 100px;
 }
 
 /* MOD2 */
