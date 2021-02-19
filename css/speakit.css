@@ -42,15 +42,14 @@ body {
   background-position: top right;
 
 }
-
+.padding-mod2{
+  padding-top: 50px;
+}
 .pad-mod2-para1{
   padding-top: 50px;
 }
 .pad-mod2-para2{
   padding: 250px 0 250px 0;
-}
-.heightpad-mod2{
-  height: 250px;
 }
 
 /* MOD3 */
