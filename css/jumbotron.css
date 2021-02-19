@@ -47,7 +47,7 @@ body {
   padding-top: 100px;
 }
 .pad-mod2-para2{
-  padding-bottom: 200px;
+  padding-bottom: 250px 0 250px 0;
 }
 .heightpad-mod2{
   height: 250px;
