@@ -81,9 +81,9 @@ body {
     height: 350px;
     padding: 6.25rem 2rem;
   }
-  .underimg-mod2{
+  /*.underimg-mod2{
     padding-top: 150px;
-  }
+  }*/
 }
 
 @media (min-width: 576px) {
@@ -91,9 +91,9 @@ body {
     height: 400px;
     padding: 6.25rem 2rem;
   }
-  .underimg-mod2{
+  /*.underimg-mod2{
     padding-top: 150px;
-  }
+  }*/
 }
 
 @media (min-width: 768px) {
@@ -111,9 +111,9 @@ body {
     height: 800px;
     padding: 18.75rem 2rem;
   }
-  .underimg-mod2{
+  /*.underimg-mod2{
     padding-top: 30px;
-  }
+  }*/
 }
 
 @media (min-width: 1200px) {
@@ -121,7 +121,9 @@ body {
     height: 1000px;
     padding: 25rem 2rem;
   }
-
+  .underimg-mod2{
+    background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
+  }
 }
 
 /* MOD3 */
