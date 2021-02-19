@@ -37,23 +37,15 @@ body {
 */
 
 .jumbotron{
-  background: url("https://hawk-garethf.github.io/img/speakit_hero_bg_1440x1020x2.png") no-repeat center center; 
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  background-image: url(https://hawk-garethf.github.io/img/speakit_hero_bg_1440x1020x2.png);
+  background-size: cover;
+  height: 100%;}
   text-align: center;
   position: relative;
   overflow: hidden;
   height: 400px;
   padding: 8rem 2rem;
-  position: absolute;
-  height: auto;
-  width: auto;
-  min-height: 100%;
-  min-width: 100%;
-  left: 50%;
-  top: 50%;
+  
 }
 .push-spaces
 {
