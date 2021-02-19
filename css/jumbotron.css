@@ -96,6 +96,10 @@ body {
   height: 270px;
 }
 
+.text-align-top{
+  padding-top: 120px;
+}
+
 .pad-top-50-mod4{
   padding-top: 135px;
 }
