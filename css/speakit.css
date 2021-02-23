@@ -194,9 +194,9 @@ body {
     display: block;
   }
   .text-align-middle-pad{
-    padding-top: 2rem;
-    padding-left: 7rem;
-    text-align: left;
+    padding-top: .3rem;
+    padding-left: 2rem;
+    text-align: center;
   }
   .img-992-mod3{
     height: 150px;
@@ -249,9 +249,9 @@ body {
     display: block;
   }
   .text-align-middle-pad{
-    padding-top: 2rem;
-    padding-left: 7rem;
-    text-align: left;
+    padding-top: .3rem;
+    padding-left: 2rem;
+    text-align: center;
   }
   .img-992-mod3{
     height: 150px;
