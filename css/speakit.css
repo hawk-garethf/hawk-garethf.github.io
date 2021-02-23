@@ -207,6 +207,13 @@ body {
     padding-bottom: 20px;
     padding-top: 40px;
   }
+
+  .pad-top-50-mod4{
+    padding-top: 180px;
+  }
+  .padding-mod5-text{
+    padding-top: 150px;
+  }
   
 }
 
