@@ -76,7 +76,7 @@ body {
   padding: 280px 0 220px 0;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 575px) {
   .jumbotron{
     height: 350px;
     padding: 6.25rem 2rem;
@@ -84,11 +84,16 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1640.png');
   }
-
+  .pad-mod2-para2{
+    padding: 200px 0 50px 15px;
+  }
+  .noshow-mob{
+    display: none;
+  }
   
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .jumbotron{
     height: 400px;
     padding: 6.25rem 2rem;
@@ -98,7 +103,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .jumbotron{
     height: 800px;
     padding: 12.5rem 2rem;
@@ -108,7 +113,7 @@ body {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .jumbotron{
     height: 800px;
     padding: 18.75rem 2rem;
