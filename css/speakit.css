@@ -85,7 +85,7 @@ body {
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1640.png');
   }
   .pad-mod2-para2{
-    padding: 50px 0 50px 0;
+    padding: 50px 0 50px 20px;
   }
   
 }
