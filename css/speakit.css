@@ -228,6 +228,12 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .noshow-mob-mod3{
+    display: none;
+  }
+  .align-center-mod3{
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
