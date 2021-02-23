@@ -327,12 +327,14 @@ body {
   .noshow-mob-mod4{
     display: none;
   }
-  .text-align-top-mod4{
-    padding-top: 150px;
+  .text-align-top-mod4 h1{
     font-size: 1.8rem;
   }
-  .pad-top-50-mod4{
+  .pad-top-50-mod4 h1{
     font-size: 1.8rem;
+  }
+  .text-align-top-mod4{
+    padding-top: 150px;
   }
 
   
