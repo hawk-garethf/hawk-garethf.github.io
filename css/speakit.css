@@ -237,12 +237,10 @@ body {
     padding-top: 2rem;
     padding-left: 4rem;
   }
-  .col-md-2{
-    width: 50%;
+  .display-block-mod3{
+    display: block;
   }
-  .col-md-4{
-    width: 50%;
-  }
+  
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
