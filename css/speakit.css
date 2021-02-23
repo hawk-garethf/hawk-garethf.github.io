@@ -218,7 +218,9 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1540.png');
   }
-
+  .pad-mod2-para2{
+    padding-bottom: 100px;
+  }
   .padding-mod3{
     padding-top: 50px;
     padding-bottom: 50px;
