@@ -334,7 +334,7 @@ body {
     font-size: 1.8rem;
   }
   .text-align-top-mod4{
-    padding-top: 150px;
+    padding-top: 250px;
   }
 
   
@@ -364,6 +364,12 @@ body {
   }
   .pad-top-50-mod4{
     padding-top: 100px;
+  }
+  .text-align-top-mod4 h1{
+    font-size: 1.8rem;
+  }
+  .pad-top-50-mod4 h1{
+    font-size: 1.8rem;
   }
 }
 
