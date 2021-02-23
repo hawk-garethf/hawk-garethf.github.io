@@ -76,6 +76,72 @@ body {
   padding: 280px 0 220px 0;
 }
 
+
+/* MOD3 */
+.underimg-mod3{
+  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.padding-mod3{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.width225-mod3{
+  width: 225px;
+  height: 225px;
+}
+
+.padding-left-mod3{
+  padding-left: 250px;
+}
+
+.text-align-middle-pad{
+  padding-top: 3.5rem;
+  padding-left: 3rem;
+}
+
+.pad-bottom-mod3{
+  padding-bottom: 40px;
+}
+
+/* MOD4 */
+.padding-mod4-header{
+  padding: 50px 0;
+}
+.underimg-mod4{
+  background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+.height-270{
+  height: 270px;
+}
+
+.text-align-top-mod4{
+  padding-top: 110px;
+}
+
+.pad-top-50-mod4{
+  padding-top: 20px;
+}
+
+/* MOD5 */
+.padding-top-bottom-mod5{
+  padding: 100px 0;
+}
+
+.padding-mod5-text{
+  padding-top: 150px;
+}
+
+
 @media (min-width: 320px) and (max-width: 575px) {
   .jumbotron{
     height: 350px;
@@ -183,68 +249,4 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   }
-}
-
-/* MOD3 */
-.underimg-mod3-desktop{
-  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.padding-mod3{
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.width225-mod3{
-  width: 225px;
-  height: 225px;
-}
-
-.padding-left-mod3{
-  padding-left: 250px;
-}
-
-.text-align-middle-pad{
-  padding-top: 3.5rem;
-  padding-left: 3rem;
-}
-
-.pad-bottom-mod3{
-  padding-bottom: 40px;
-}
-
-/* MOD4 */
-.padding-mod4-header{
-  padding: 50px 0;
-}
-.underimg-mod4{
-  background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-
-}
-
-.height-270{
-  height: 270px;
-}
-
-.text-align-top-mod4{
-  padding-top: 110px;
-}
-
-.pad-top-50-mod4{
-  padding-top: 20px;
-}
-
-/* MOD5 */
-.padding-top-bottom-mod5{
-  padding: 100px 0;
-}
-
-.padding-mod5-text{
-  padding-top: 150px;
 }
