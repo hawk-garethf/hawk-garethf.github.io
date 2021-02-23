@@ -121,6 +121,10 @@ body {
   .container-bg-pink{
     background-color: #EC355B;
   }
+  .padding-mod3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
