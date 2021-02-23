@@ -232,6 +232,10 @@ body {
     text-align: center;
     width: 100%;
   }
+  .text-align-middle-pad{
+    padding-top: 3.3rem;
+    padding-left: 4rem;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
