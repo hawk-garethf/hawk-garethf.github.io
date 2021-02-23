@@ -324,6 +324,12 @@ body {
     height: 150px;
     width: 150px;
   }
+  .noshow-mob-mod4{
+    display: none;
+  }
+  .text-align-top-mod4{
+    padding-top: 10px;
+  }
 
   
 }
@@ -343,6 +349,12 @@ body {
   .text-align-middle-pad{
     padding-top: 2rem;
     padding-left: 4rem;
+  }
+  .noshow-mob-mod4{
+    display: none;
+  }
+  .text-align-top-mod4{
+    padding-top: 10px;
   }
 }
 
