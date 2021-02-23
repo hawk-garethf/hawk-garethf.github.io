@@ -239,6 +239,7 @@ body {
   .text-align-middle-pad{
     padding-top: 2rem;
     padding-left: 7rem;
+    text-align: center;
   }
   .img-992-mod3{
     height: 150px;
