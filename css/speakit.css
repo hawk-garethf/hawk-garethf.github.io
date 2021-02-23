@@ -84,10 +84,7 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1640.png');
   }
-  .desktop {
-    display: none;
-  }
-
+  
 }
 
 @media (min-width: 576px) {
