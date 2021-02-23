@@ -270,6 +270,13 @@ body {
     padding-bottom: 20px;
     padding-top: 40px;
   }
+  .pad-top-50-mod4{
+    padding-top: 150px;
+  }
+  .padding-mod5-text{
+    padding-top: 250px;
+  }
+
   
 }
 
