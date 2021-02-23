@@ -99,7 +99,9 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
+  .text-align-top-mod4{
+    padding-top: 10px;
+  }
   .align-center-mod5{
     text-align: center;
   }
@@ -125,6 +127,9 @@ body {
   }
   .noshow-mob-mod4{
     display: none;
+  }
+  .text-align-top-mod4{
+    padding-top: 110px;
   }
   .align-center-mod5{
     text-align: center;
@@ -227,7 +232,7 @@ body {
   height: 270px;
 }
 
-.text-align-top{
+.text-align-top-mod4{
   padding-top: 110px;
 }
 
