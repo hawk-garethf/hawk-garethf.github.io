@@ -149,7 +149,7 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
   }
-  .underimg-mod3{
+  .underimg-mod3-mobile{
     background-image: url('https://hawk-garethf.github.io/img/hero_box_mod3_795x1000.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -186,7 +186,7 @@ body {
 }
 
 /* MOD3 */
-.underimg-mod3{
+.underimg-mod3-desktop{
   background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat: no-repeat;
   background-size: contain;
