@@ -94,6 +94,9 @@ body {
   .align-center-mod5{
     text-align: center;
   }
+  .padding-mod5-text{
+    padding-bottom: 50px;
+  }
   
 }
 
@@ -107,6 +110,9 @@ body {
   }
   .align-center-mod5{
     text-align: center;
+  }
+  .padding-mod5-text{
+    padding-bottom: 50px;
   }
 }
 
