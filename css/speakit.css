@@ -112,6 +112,15 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
   }
+  .underimg-mod3{
+    background-image: url('https://hawk-garethf.github.io/img/hero_box_mod3_795x1000.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+  }
+  .container-bg-pink{
+    background-color: #EC355B;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -122,15 +131,7 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1180.png');
   }
-  .underimg-mod3{
-    background-image: url('https://hawk-garethf.github.io/img/hero_box_mod3_795x1000.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
-  }
-  .container-bg-pink{
-    background-color: #EC355B;
-  }
+
 }
 
 @media (min-width: 1200px) {
