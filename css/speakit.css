@@ -234,7 +234,7 @@ body {
     width: 100%;
   }
   .text-align-middle-pad{
-    padding-top: 3.3rem;
+    padding-top: 2rem;
     padding-left: 4rem;
   }
 }
@@ -251,7 +251,10 @@ body {
     height: 150px;
     width: 150px;
   }
-
+  .text-align-middle-pad{
+    padding-top: 2rem;
+    padding-left: 4rem;
+  }
 }
 
 @media (min-width: 1200px) {
