@@ -176,6 +176,32 @@ body {
     padding-bottom: 50px;
     padding-top: 0px;
   }
+  .underimg-mod3{
+    background-image: none;
+  }
+  .container-bg-pink{
+    background-color: #EC355B;
+  }
+  .padding-mod3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .noshow-mob-mod3{
+    display: none;
+  }
+  .align-center-mod3{
+    width: 100%;
+    display: block;
+  }
+  .text-align-middle-pad{
+    padding-top: 2rem;
+    padding-left: 7rem;
+    text-align: left;
+  }
+  .img-992-mod3{
+    height: 150px;
+    width: 150px;
+  }
   
 }
 
@@ -204,6 +230,32 @@ body {
   .padding-mod5-text{
     padding-bottom: 50px;
     padding-top: 0px;
+  }
+  .underimg-mod3{
+    background-image: none;
+  }
+  .container-bg-pink{
+    background-color: #EC355B;
+  }
+  .padding-mod3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .noshow-mob-mod3{
+    display: none;
+  }
+  .align-center-mod3{
+    width: 100%;
+    display: block;
+  }
+  .text-align-middle-pad{
+    padding-top: 2rem;
+    padding-left: 7rem;
+    text-align: left;
+  }
+  .img-992-mod3{
+    height: 150px;
+    width: 150px;
   }
   
 }
