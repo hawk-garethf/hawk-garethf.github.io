@@ -115,7 +115,7 @@ body {
 
 /* MOD4 */
 .padding-mod4-header{
-  padding: 50px 0;
+  padding: 125px 0 50px 0;
 }
 .underimg-mod4{
   background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
