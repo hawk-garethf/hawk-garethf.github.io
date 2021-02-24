@@ -89,10 +89,6 @@ body {
   width: 100%;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
-.padding-mod3{
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
 
 .width225-mod3{
   width: 225px;
@@ -101,6 +97,10 @@ body {
 
 .padding-left-mod3{
   padding-left: 250px;
+}
+.text-white{
+  padding-top: 100px;
+  padding-bottom: 85px;
 }
 
 .text-align-middle-pad{
