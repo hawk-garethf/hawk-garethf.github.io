@@ -84,8 +84,8 @@ body {
   background-size: contain;
   background-position: center;
 }
-.container-bg-pink{
-  height: 80%;
+.container-bg-pink-50-right{
+  height: 100%;
   width: 100%;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
@@ -358,8 +358,8 @@ body {
     height: 150px;
     width: 150px;
   }
-  .container-bg-pink{
-    height: 80%;
+  .container-bg-pink-50-right{
+    height: 100%;
     width: 100%;
     background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
   }
@@ -392,8 +392,8 @@ body {
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   }
-  .container-bg-pink{
-    height: 80%;
+  .container-bg-pink-50-right{
+    height: 100%;
     width: 100%;
     background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
   }
