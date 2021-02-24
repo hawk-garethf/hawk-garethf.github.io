@@ -89,7 +89,7 @@ body {
   width: 100%;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
-.text-white{
+.text-white-pad-mod3{
   padding-top: 100px;
   padding-bottom: 85px;
 }
@@ -372,7 +372,7 @@ body {
     width: 100%;
     background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
   }
-  .text-white{
+  .text-white-pad-mod3{
     padding-top: 75px;
     padding-bottom: 60px;
   }
