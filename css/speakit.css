@@ -89,7 +89,10 @@ body {
   width: 100%;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
-
+.text-white{
+  padding-top: 100px;
+  padding-bottom: 85px;
+}
 .width225-mod3{
   width: 225px;
   height: 225px;
@@ -98,10 +101,7 @@ body {
 .padding-left-mod3{
   padding-left: 250px;
 }
-.text-white{
-  padding-top: 100px;
-  padding-bottom: 85px;
-}
+
 
 .text-align-middle-pad{
   padding-top: 2rem;
@@ -184,7 +184,7 @@ body {
     background-image: none;
   }
   .container-bg-pink{
-    background-color: #EC355B;
+    background: #EC355B;
   }
   .padding-mod3{
     padding-top: 50px;
@@ -253,7 +253,7 @@ body {
     background-image: none;
   }
   .container-bg-pink{
-    background-color: #EC355B;
+    background: #EC355B;
   }
   .padding-mod3{
     padding-top: 50px;
@@ -306,7 +306,7 @@ body {
     background-image: none;
   }
   .container-bg-pink{
-    background-color: #EC355B;
+    background: #EC355B;
   }
   .padding-mod3{
     padding-top: 50px;
@@ -362,6 +362,10 @@ body {
     height: 80%;
     width: 100%;
     background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
+  }
+  .text-white{
+    padding-top: 75px;
+    padding-bottom: 60px;
   }
   .text-align-middle-pad{
     padding-top: 2rem;
