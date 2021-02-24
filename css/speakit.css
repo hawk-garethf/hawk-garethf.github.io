@@ -84,7 +84,9 @@ body {
   background-size: contain;
   background-position: center;
 }
-
+.container-bg-pink{
+  background: linear-gradient(90deg,#ffffff 50%, #EC355B 50%);
+}
 .padding-mod3{
   padding-top: 200px;
   padding-bottom: 200px;
