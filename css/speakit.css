@@ -87,7 +87,7 @@ body {
 .container-bg-pink-50-right{
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
+  background-color: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
 .padding-mod3{
   padding-top: 200px;
