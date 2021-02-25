@@ -67,7 +67,7 @@ body {
   z-index: -1;
 }
 #bg-mod2{
-  position: fixed; 
+  position: relative; 
   top: -50%; 
   left: -50%; 
   width: 200%; 
@@ -75,7 +75,7 @@ body {
   z-index:-1;
 }
 #bg-mod2 img {
-  position: absolute; 
+  position: relative; 
   top: 0; 
   left: 0; 
   right: 0; 
