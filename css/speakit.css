@@ -65,13 +65,25 @@ body {
   background-size: contain;
   background-position: relative;
   z-index: -1;
-  position: absolute;
+}
+#bg-mod2{
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg-mod2 img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
 
-}
-.top{
-  z-index: 1;
-  position: absolute;
-}
 .pad-mod2-top{
   padding-top: 50px;
 }
