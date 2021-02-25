@@ -73,10 +73,9 @@ div.container-mod2-1{
 div.container-mod2-1 img{
   position:absolute;
   top:0;
-  left:300px;
+  left:100px;
   z-index:0;
-  height: 100%;
-  width: 100%;
+
 }
 div.container-mod2-1 div.container-mod2-2{
   position:relative;
