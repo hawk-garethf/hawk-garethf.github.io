@@ -80,7 +80,7 @@ body {
   background-size: 200% auto; 
   background-image: linear-gradient(to right,rgba(255, 255, 255, 0) 0%, #EC355B; 100%);
   background-color: #EC355B;
-  background-position: 0% 0;
+  background-position: 10% 0;
   animation-duration: 2s;
   animation-delay: .5s;
   animation-iteration-count: 1;
