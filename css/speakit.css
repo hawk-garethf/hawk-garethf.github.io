@@ -65,10 +65,12 @@ body {
   background-size: contain;
   background-position: relative;
   z-index: -1;
+  position: absolute;
 
 }
 .top{
   z-index: 1;
+  position: absolute;
 }
 .pad-mod2-top{
   padding-top: 50px;
