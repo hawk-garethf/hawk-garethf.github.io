@@ -79,7 +79,7 @@ body {
   display:block;
   width: max-content;
   background-size: 200% auto; 
-  background-image: linear-gradient(to right,#fff 50%,#ff0 50%);
+  background-image: linear-gradient(to right,#fff 50%,#EC355B 50%);
   background-position: 0% 0;
   animation-duration: 3s;
   animation-delay: 1s;
