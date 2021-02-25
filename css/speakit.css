@@ -77,7 +77,6 @@ body {
 }
 
 .highlight{
-  display:block;
   width: max-content;
   background-size: 200% auto; 
   background-image: linear-gradient(to right,rgba(255, 255, 255, 0) 0%, #EC355B; 100%);
