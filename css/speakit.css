@@ -76,7 +76,7 @@ body {
   padding: 280px 0 220px 0;
 }
 .highlight{
-  display:block;
+  display:inline;
   width: max-content;
   background-size: 200% auto; 
   background-image: linear-gradient(to right,#fff 50%,#EC355B 50%);
