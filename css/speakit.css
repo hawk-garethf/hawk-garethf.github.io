@@ -64,7 +64,11 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: relative;
+  z-index: -1;
 
+}
+.top{
+  z-index: 1;
 }
 .pad-mod2-top{
   padding-top: 50px;
