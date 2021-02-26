@@ -246,6 +246,8 @@ div.container-mod2-2 {
   .mod-bg-img {
     width: auto;
     height: auto;
+    left: 0;
+    margin-left: 0;
   }
   .pad-mod2-para2{
     padding: 200px 0 50px 15px;
