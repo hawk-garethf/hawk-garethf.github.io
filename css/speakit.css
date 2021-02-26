@@ -121,14 +121,15 @@ div.container-mod2-1 div.container-mod2-2{
   margin:auto;
   z-index: 1;
 }
-.mod-bg-img {
+.mod-bg {
   z-index: 0;
   width: 100%;
   position:absolute;
+  padding: 100px 0 300px 0;
 
 }
-.mod-bg-img img{
-  margin: 100px;
+.mod-bg img{
+  max-width: 100%;
 }
 
 
