@@ -59,6 +59,8 @@ body {
 
 
 /* MOD2 */
+
+/*
 .underimg-mod2{
   background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   background-repeat: no-repeat;
@@ -66,7 +68,9 @@ body {
   background-position: relative;
   z-index: 0;
 }
+ */
 
+ /*
 div.container-mod2-1{
   position:relative;
 }
@@ -75,12 +79,14 @@ div.container-mod2-1 img{
   top:0;
   left:100px;
   z-index:0;
-
 }
 div.container-mod2-1 div.container-mod2-2{
   position:relative;
   z-index:5;
 }
+*/
+
+
 
 .pad-mod2-top{
   padding-top: 50px;
@@ -90,6 +96,7 @@ div.container-mod2-1 div.container-mod2-2{
 }
 .pad-mod2-para1-pad-right-30{
   padding-right: 30px;
+  color: #212529;
 }
 .pad-mod2-para2{
   padding: 280px 0 220px 0;
