@@ -119,7 +119,6 @@ div.container-mod2-1 div.container-mod2-2{
 */
 div.container-mod2-2 {
   margin:auto;
-  position: absolute;
   z-index: 1;
 }
 div.mod-bg-img {
