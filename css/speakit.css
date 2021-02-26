@@ -119,12 +119,12 @@ div.container-mod2-1 div.container-mod2-2{
 */
 div.container-mod2-2 {
   margin:auto;
-  position: relative;
+  position: absolute;
 }
 div.mod-bg-img {
   background-image:url('https://hawk-garethf.github.io/img/hew_box_mockup_full.png');
   background-position:center;
-  padding-top: 1000px;
+  padding-top: 100px;
   width: 100%;
   height: 100%
 }
