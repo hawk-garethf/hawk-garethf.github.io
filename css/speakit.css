@@ -85,7 +85,15 @@ div.container-mod2-1 div.container-mod2-2{
   z-index:5;
 }
 */
-
+div.container-mod2-2 {
+  margin:auto;
+  position: relative;
+}
+.mod-bg-img {
+  position: absolute;
+  left: 50%;
+  margin-left:256px;
+}
 
 
 .pad-mod2-top{
