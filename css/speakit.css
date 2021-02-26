@@ -92,7 +92,7 @@ div.container-mod2-2 {
 .mod-bg-img {
   position: absolute;
   left: 50%;
-  margin-left:-256px;
+  margin-left:0;
 }
 
 
