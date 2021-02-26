@@ -123,12 +123,9 @@ div.container-mod2-1 div.container-mod2-2{
 }
 .mod-bg-img {
   background-image:url('https://hawk-garethf.github.io/img/hew_box_mockup_full.png');
-  background-position:center;
   background-repeat: no-repeat;
-  background-size:100%;
-  padding-top: 100px;
-  width: 100%;
-  height: 100%;
+  background-size: contain;
+  background-position: relative;
   z-index: 0;
 }
 
