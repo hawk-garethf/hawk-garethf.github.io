@@ -120,12 +120,11 @@ div.container-mod2-1 div.container-mod2-2{
 .container-mod2-2 {
   margin:auto;
   z-index: 1;
-  position: relative;
-  top: -900px;
 }
 .mod-bg-img {
   z-index: 0;
   width: 100%;
+  position:absolute;
 }
 
 
