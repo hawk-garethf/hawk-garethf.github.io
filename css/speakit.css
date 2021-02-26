@@ -122,7 +122,10 @@ div.container-mod2-2 {
   position: relative;
 }
 .mod-bg-img {
-  position: absolute;
+  background-image:url('https://hawk-garethf.github.io/img/hew_box_mockup_full.png');
+  background-position: -100%;
+  width: 100%;
+  height: 100%
   left: 50%;
   margin-left: -450px;
 }
