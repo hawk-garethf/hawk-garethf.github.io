@@ -121,7 +121,7 @@ div.container-mod2-1 div.container-mod2-2{
   margin:auto;
   z-index: 1;
   position: relative;
-  top: -900;
+  top: -900px;
 }
 .mod-bg-img {
   z-index: 0;
