@@ -117,11 +117,11 @@ div.container-mod2-1 div.container-mod2-2{
   z-index:5;
 }
 */
-div.container-mod2-2 {
+.container-mod2-2 {
   margin:auto;
   z-index: 1;
 }
-div.mod-bg-img {
+.mod-bg-img {
   background-image:url('https://hawk-garethf.github.io/img/hew_box_mockup_full.png');
   background-position:center;
   background-repeat: no-repeat;
