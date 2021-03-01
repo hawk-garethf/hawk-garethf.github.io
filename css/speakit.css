@@ -264,6 +264,13 @@ div.container-mod2-1 div.container-mod2-2{
   .noshow-mob-mod4{
     display: none;
   }
+  .mod-bg {
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    padding: 160px 0 300px 0;
+    text-align: end;
+}
 
   .padding-mod3{
     padding-top: 50px;
