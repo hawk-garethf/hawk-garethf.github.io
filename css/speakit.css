@@ -56,7 +56,7 @@ body {
   position: relative;
   z-index: 2;
 }
-.fadein h1 h3 {
+.fadein {
   display: inline-block;
   color: #ffffff;
   text-transform: none;
