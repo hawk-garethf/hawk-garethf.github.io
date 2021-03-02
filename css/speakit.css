@@ -57,7 +57,7 @@ body {
   z-index: 2;
 }
 .fadein {
-  display: inline-block;
+  display: block;
   color: #ffffff;
   text-transform: none;
   opacity: 0.0;
