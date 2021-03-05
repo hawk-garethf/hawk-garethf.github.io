@@ -179,10 +179,10 @@ div.container-mod2-1 div.container-mod2-2{
   z-index: 0;
   position: absolute;
   text-align: start;
-  
-}
+ }
 .mod3-bg img{
   max-width: 100%;
+  background-size: cover;
 }
 .container-mod3 {
   margin:auto;
