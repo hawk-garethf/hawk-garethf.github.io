@@ -511,7 +511,7 @@ div.container-mod2-1 div.container-mod2-2{
   .container-bg-pink{
     height: 80%;
     width: 100%;
-    background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
+    background: linear-gradient(90deg,#ffffff 70%, #EC355B 30%);
   }
   .text-white-pad-mod3{
     padding-top: 75px;
