@@ -168,33 +168,31 @@ div.container-mod2-1 div.container-mod2-2{
   to {background-position: -100% 0;}
 }
 
-/* MOD3 */
+/* MOD3
 /*.underimg-mod3{
   background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
+} */
 .container-bg-pink{
   height: 80%;
   width: 100%;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
-}*/
+
 .container-mod3 {
   margin:auto;
   z-index: 1;
-  
+  background: linear-gradient(90deg,#ffffff 50%, #EC355B 50%);
 }
 .mod3-bg {
   z-index: 0;
-  width:max-content;
+  width: 100%;
   position:absolute;
   text-align:start;
-  
 }
 .mod3-bg img{
   max-width: 100%;
-  background: linear-gradient(90deg,#ffffff 50%, #EC355B 50%);
 }
 
 .text-white-pad-mod3{
@@ -223,7 +221,7 @@ div.container-mod2-1 div.container-mod2-2{
 
 /* MOD4 */
 .padding-mod4-header{
-  padding: 250px 0 50px 0;
+  padding: 125px 0 50px 0;
 }
 .underimg-mod4{
   background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
@@ -547,5 +545,9 @@ div.container-mod2-1 div.container-mod2-2{
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   }
-
+  .container-bg-pink{
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
+  }
 }
