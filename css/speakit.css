@@ -169,17 +169,28 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 /* MOD3 */
-.underimg-mod3{
+/* .underimg-mod3{
   background-image: url('https://hawk-garethf.github.io/img/gbox_mod3_full.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-}
-.container-bg-pink{
-  height: 80%;
-  width: 100%;
+}*/
+.mod3-bg {
+  z-index: 0;
+  max-width: 100%;
+  position: absolute;
+  text-align: start;
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
+.mod3-bg img{
+  max-width: 100%;
+}
+.container-mod3 {
+  margin:auto;
+  z-index: 1;
+  
+}
+
 .text-white-pad-mod3{
   padding-top: 100px;
   padding-bottom: 85px;
