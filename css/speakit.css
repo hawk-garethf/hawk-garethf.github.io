@@ -187,6 +187,9 @@ div.container-mod2-1 div.container-mod2-2{
 .container-mod3 {
   margin:auto;
   z-index: 1;
+  
+}
+.container-bg-pink{
   background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
 }
 
@@ -281,7 +284,9 @@ div.container-mod2-1 div.container-mod2-2{
     padding: 160px 0 300px 0;
     text-align: end;
 }
-
+  .mod3-bg{
+    display: none !important;
+  }
   .padding-mod3{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -376,9 +381,10 @@ div.container-mod2-1 div.container-mod2-2{
     padding-bottom: 50px;
     padding-top: 0px;
   }
-  .underimg-mod3{
-    background-image: none;
+  .mod3-bg{
+    display: none !important;
   }
+
   .container-bg-pink{
     background: #EC355B;
   }
@@ -439,8 +445,8 @@ div.container-mod2-1 div.container-mod2-2{
     padding: 250px 0 300px 0;
     text-align: end;
 }
-  .underimg-mod3{
-    background-image: none;
+  .mod3-bg{
+    display: none !important;
   }
   .container-bg-pink{
     background: #EC355B;
