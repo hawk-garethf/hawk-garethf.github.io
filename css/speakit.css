@@ -183,13 +183,14 @@ div.container-mod2-1 div.container-mod2-2{
 .container-mod3 {
   margin:auto;
   z-index: 1;
-  background: linear-gradient(90deg,#ffffff 50%, #EC355B 50%);
+  
 }
 .mod3-bg {
   z-index: 0;
   width:max-content;
   position:absolute;
   text-align:start;
+  background: linear-gradient(90deg,#ffffff 50%, #EC355B 50%);
 }
 .mod3-bg img{
   max-width: 100%;
