@@ -170,7 +170,7 @@ div.container-mod2-1 div.container-mod2-2{
 
 /* MOD3 */
 .underimg-mod3{
-  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3.png');
+  background-image: url('https://hawk-garethf.github.io/img/gbox_mod3_full.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -530,9 +530,5 @@ div.container-mod2-1 div.container-mod2-2{
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   }
-  .container-bg-pink{
-    height: 80%;
-    width: 100%;
-    background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
-  }
+
 }
