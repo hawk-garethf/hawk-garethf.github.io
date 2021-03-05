@@ -187,7 +187,7 @@ div.container-mod2-1 div.container-mod2-2{
 }
 .mod3-bg {
   z-index: 0;
-  width: 100%;
+  width:max-content;
   position:absolute;
   text-align:start;
 }
