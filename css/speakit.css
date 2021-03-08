@@ -547,6 +547,10 @@ div.container-mod2-1 div.container-mod2-2{
     height: 150px;
     width: 150px;
   }
+  .pad-bottom-mod3{
+    padding-left: 75px;
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
