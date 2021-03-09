@@ -12,7 +12,10 @@ body {
 .jumbotron{
   text-align: center;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
+  height: 1000px;
+  padding: 8rem 2rem;
+  padding: 25rem 2rem;
   border-radius: 0rem;
 }
 
@@ -27,8 +30,8 @@ body {
   width: auto;
   min-height: 100%;
   min-width: 100%;
-  left: 100%;
-  top: 100%;
+  left: 50%;
+  top: 50%;
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   z-index: 1;
@@ -251,7 +254,10 @@ div.container-mod2-1 div.container-mod2-2{
 
 
 @media (min-width: 320px) and (max-width: 575px) {
-
+  .jumbotron{
+    height: 350px;
+    padding: 6.25rem 2rem;
+  }
   /*
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
@@ -339,7 +345,10 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-
+  .jumbotron{
+    height: 400px;
+    padding: 6.25rem 2rem;
+  }
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1540.png');
   }
@@ -418,7 +427,10 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .jumbotron{
+    height: 800px;
+    padding: 12.5rem 2rem;
+  }
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
   }
@@ -480,7 +492,10 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  .jumbotron{
+    height: 800px;
+    padding: 18.75rem 2rem;
+  }
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1180.png');
   }
@@ -541,7 +556,10 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 @media (min-width: 1200px) {
-
+  .jumbotron{
+    height: 1000px;
+    padding: 25rem 2rem;
+  }
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
   }
