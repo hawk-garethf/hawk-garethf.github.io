@@ -23,15 +23,12 @@ video {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
-  height: auto;
+  height: 1000px;
   overflow: hidden;
   position: relative;
   border-radius: 0rem;
-}
-.overlay{
   background: linear-gradient(#fff, #ccc);
 }
-
 
 /*
 .jumbotron{
