@@ -12,6 +12,7 @@ body {
 .jumbotron{
   text-align: center;
   position: relative;
+  background-size: cover;
   overflow: hidden;
   height: 1000px;
   padding: 8rem 2rem;
