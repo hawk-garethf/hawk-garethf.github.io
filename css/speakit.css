@@ -23,10 +23,11 @@ video {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
-  height: 1000px;
+  height: auto;
   overflow: hidden;
   position: relative;
   border-radius: 0rem;
+  background: linear-gradient(#fff, #ccc);
 }
 
 /*
