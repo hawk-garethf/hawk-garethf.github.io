@@ -27,8 +27,11 @@ video {
   overflow: hidden;
   position: relative;
   border-radius: 0rem;
+}
+.overlay{
   background: linear-gradient(#fff, #ccc);
 }
+
 
 /*
 .jumbotron{
