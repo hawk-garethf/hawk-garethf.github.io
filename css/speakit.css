@@ -9,32 +9,23 @@ body {
 
 /* HERO */
 
-.jumbotron{
-  text-align: center;
-  position: relative;
-  background-size: cover;
-  overflow: hidden;
-  height: 1000px;
-  padding: 25rem 2rem;
-  border-radius: 0rem;
-}
-
-.container {
-  position: relative;
-  z-index: 2;
-}
-
-#video-background{ 
+video {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: auto;
-  width: auto;
-  min-height: 100%;
-  min-width: 100%;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
-  z-index: 1;
+}
+
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
 }
 
 /*
