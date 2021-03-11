@@ -27,7 +27,7 @@ video {
   overflow: hidden;
   position: relative;
   border-radius: 0rem;
-  box-shadow: 10px 5px 15px 5px #ccc inset;
+  box-shadow: 10px 5px 15px 5px #ccc;
 }
 
 @media (min-width: 1680px) and (max-width: 1776px) {
@@ -188,10 +188,12 @@ div.container-mod2-1 div.container-mod2-2{
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   color: #fff;
+  
 }
 .highlight.active{
  animation-name: highlight;
 }
+.highlight::selection { color: #212529; }
 
 @keyframes highlight {
   from {background-position: 0% 0;}
