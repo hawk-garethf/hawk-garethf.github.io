@@ -37,7 +37,7 @@ video {
 }
 @media (min-width: 1400px) and (max-width: 1679px) {
   .jumbotron {
-    height: 945px;
+    height: 788px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
