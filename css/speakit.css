@@ -192,6 +192,7 @@ div.container-mod2-1 div.container-mod2-2{
 }
 .highlight.active{
  animation-name: highlight;
+ color: #ffffff;
 }
 .highlight::selection { color: #fff; }
 
