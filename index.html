@@ -18,6 +18,18 @@
     <script>window.jQuery || document.write('<script src="https://hawk-garethf.github.io/js/jquery-slim.min.js"><\/script>')</script>
     <script src="https://hawk-garethf.github.io/js/popper.min.js"></script>
     <script src="https://hawk-garethf.github.io/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      (function(window) {
+          function setupVideo()
+          {
+              var v = document.getElementById('videoElement');
+              v.addEventListener('mouseover', function() { this.controls = true; }, false);
+              v.addEventListener('mouseout', function() { this.controls = false; }, false);
+          }
+  
+          window.addEventListener('load', setupVideo, false);
+      })(window);
+    </script>
     <script>
       highlight();
   
@@ -48,7 +60,7 @@
 
       <!-- MOD1 HERO -->
       <div class="jumbotron">
-        <video preload autoplay loop>
+        <video preload autoplay loop height="auto" id="videoElement">
           <source src="https://hawk-garethf.github.io/img/speakit_hero.mp4" type="video/mp4">
           <source src="https://hawk-garethf.github.io/img/speakit_hero.ogg" type="video/ogg">
         </video>
