@@ -20,7 +20,7 @@ video {
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 150px;
   color: inherit;
   background-color: #fff;
   height: 1000px;
@@ -288,7 +288,13 @@ div.container-mod2-1 div.container-mod2-2{
 .padding-mod5-text{
   padding-top: 150px;
 }
-
+/* MOD6 */
+.padding-mod6-header{
+  padding: 1250px 0 250px 0;
+}
+.container-bg-yellow{
+  background: #f89404;
+}
 
 @media (min-width: 320px) and (max-width: 575px) {
   
