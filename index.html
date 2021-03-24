@@ -50,22 +50,9 @@
             console.log(scroll);
           });
         }  
-        </script>
-<script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+        
 
-<script>
-  LottieInteractivity.create({
-    mode:"scroll",
-    player:'#firstLottie',
-    actions: [
-      {
-        visibility: [0,1],
-        type: "seek",
-        frames: [0, 300]
-      }
-    ]  
-  });
-  </script>
+
   </head>
   
 
@@ -228,6 +215,20 @@
       </section>  
       </div>
       <!-- MOD5 record  -->
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script> // place this in your body element
+      <script>
+        LottieInteractivity.create({
+          mode: 'scroll',
+          player: '#firstLottie',
+          actions: [
+            {
+              visibility: [0, 1],
+              type: 'seek',
+              frames: [0, 100],
+            },
+          ],
+        });
+      </script>
       <div class="container">
       <section>
           <div class="row padding-top-bottom-mod5 align-center-mod5">
@@ -237,7 +238,7 @@
               <h1>Online events saw 25% lift in engagement</h1>
             </div>
             <div class="col-md-5">
-              <lottie-player id="firstLottie" src="https://assets5.lottiefiles.com/packages/lf20_FISfBK.json">
+              <lottie-player id="firstLottie" src="https://assets2.lottiefiles.com/packages/lf20_i9mxcD.json" style="width:400px; height: 400px;">
               </lottie-player>
             </div>
             <div class="col-md-1">
