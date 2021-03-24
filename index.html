@@ -51,6 +51,20 @@
           });
         }  
         </script>
+        
+        <script>
+          LottieInteractivity.create({
+            mode: 'scroll',
+            player: '#firstLottie',
+            actions: [
+              {
+                visibility: [0,1],
+                type: 'seek',
+                frames: [0, 100],
+              },
+            ],
+          });
+          </script>
   </head>
   
 
@@ -222,7 +236,7 @@
               <h1>Online events saw 25% lift in engagement</h1>
             </div>
             <div class="col-md-5">
-              <img src="https://hawk-garethf.github.io/img/record_mod5.png" width="400" height="400">
+              <lottie-player id="firstLottie" src="https://assets2.lottiefiles.com/packages/lf20_i9mxcD.json" style="width:400px; height: 400px;">"></lottie-player>
             </div>
             <div class="col-md-1">
               
