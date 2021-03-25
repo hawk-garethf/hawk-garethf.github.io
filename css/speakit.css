@@ -542,23 +542,25 @@ div.container-mod2-1 div.container-mod2-2{
     padding: 200px 0 300px 0;
     text-align: end;
   }
-  .img-992-mod3{
-    height: 150px;
-    width: 150px;
-    
-  }
-  .container-bg-pink{
-    background: #EC355B;
-  }
   .text-white-pad-mod3{
     padding-top: 75px;
     padding-bottom: 60px;
   }
+  
+  /*
+  .container-bg-pink{
+    background: #EC355B;
+  }
+  
   .pad-bottom-mod3{
     padding-bottom: 30px;
     padding-top: 9px;
     padding-left: 50px;
   }
+  .img-992-mod3{
+    height: 150px;
+    width: 150px;
+  }*/
   .text-align-middle-pad{
     padding-top: 2rem;
     padding-left: 4rem;
