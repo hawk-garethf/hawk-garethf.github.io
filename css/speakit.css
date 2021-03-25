@@ -582,6 +582,13 @@ div.container-mod2-1 div.container-mod2-2{
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1240px) {
+  .pad-bottom-mod3{
+    padding-left: 70px;
+    padding-bottom: 20px;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1443px) {
   /*.img-992-mod3{
     height: 150px;
