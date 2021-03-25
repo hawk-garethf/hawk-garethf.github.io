@@ -219,6 +219,11 @@ div.container-mod2-1 div.container-mod2-2{
 
   
  }
+ @media (min-width: 992px) and (max-width: 1679px) {
+  .mod3-bg {
+    left: -200px;
+  }
+}
 .mod3-bg img{
   max-width: 100%;
   background-size: cover;
