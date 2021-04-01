@@ -330,6 +330,9 @@ div.container-mod2-1 div.container-mod2-2{
   .text-size-mod2 h1{
     font-size: 1.8rem;
   }
+  .mod2-margin-15{
+    margin-right: 15px;
+  }
   .noshow-mob{
     display: none;
   }
