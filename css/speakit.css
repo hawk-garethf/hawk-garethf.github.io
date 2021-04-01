@@ -309,8 +309,8 @@ div.container-mod2-1 div.container-mod2-2{
 .padding-mod6-header{
   padding: 250px 0 250px 0;
 }
-.container-bg-yellow{
-  background: #f89404;
+.container-bg-blue{
+  background: #08b4c4;
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
