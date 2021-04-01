@@ -219,6 +219,18 @@ div.container-mod2-1 div.container-mod2-2{
 
   
  }
+
+ #lottie{
+  background-color:#ffffff;
+  width:400px;
+  height:400px;
+  display:block;
+  overflow: hidden;
+  transform: translate3d(0,0,0);
+  text-align: center;
+  opacity: 1;
+}
+
  @media (min-width: 992px) and (max-width: 1679px) {
   .mod3-bg {
     left: -200px;
