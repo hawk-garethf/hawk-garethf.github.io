@@ -225,7 +225,20 @@
             </div>
             <div class="col-md-5" id="lottieAnimations">
               <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nre2i7dc.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"  loop autoplay></lottie-player>
+              <script>
+                LottieInteractivity.create({
+                mode:"scroll",
+                player:'#firstLottie',
+                actions: [
+                    {
+                    visibility: [0,1],
+                    type: "seek",
+                    frames: [0, 59]
+                    }
+                ]  
+                });
+            </script>
+<lottie-player src="https://assets9.lottiefiles.com/packages/lf20_nre2i7dc.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;" autoplay></lottie-player>
             </div>
             <div class="col-md-1">
               

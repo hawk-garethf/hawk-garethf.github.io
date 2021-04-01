@@ -1,7 +1,13 @@
-var animation = bodymovin.loadAnimation({
-    container: document.getElementById('lottieAnimation'),
-    renderer: 'json',
-    loop: true,
-    autoplay: true,
-    path: 'https://assets9.lottiefiles.com/packages/lf20_nre2i7dc.json'
-})
+
+                LottieInteractivity.create({
+                  mode:"scroll",
+                  player:'#firstLottie',
+                  actions: [
+                    {
+                      visibility: [0,1],
+                      type: "seek",
+                      frames: [0, 59]
+                    }
+                  ]  
+                });
+              
