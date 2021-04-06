@@ -18,6 +18,8 @@
     <script>window.jQuery || document.write('<script src="https://hawk-garethf.github.io/js/jquery-slim.min.js"><\/script>')</script>
     <script src="https://hawk-garethf.github.io/js/popper.min.js"></script>
     <script src="https://hawk-garethf.github.io/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@0.1.4/dist/lottie-interactivity.min.js"></script>
+
     <script type="text/javascript">
       (function(window) {
           function setupVideo()
@@ -224,23 +226,10 @@
               <h1>Online events saw 25% lift in engagement</h1>
             </div>
             <div class="col-md-5" id="lottieAnimations">
-              <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@0.1.4/dist/lottie-interactivity.min.js"></script>
               
               <lottie-player id="firstLottie" src="https://assets9.lottiefiles.com/packages/lf20_nre2i7dc.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"></lottie-player>
             </div>
-            <script>
-              LottieInteractivity.create({
-                mode:"scroll",
-                player:'#firstLottie',
-                actions: [
-                  {
-                    visibility: [0,1],
-                    type: "seek",
-                    frames: [0, 59]
-                  }
-                ]  
-              });
-              </script>
+            
             <div class="col-md-1">
               
             </div>
@@ -272,7 +261,20 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
+
+            <script>
+              LottieInteractivity.create({
+                mode:"scroll",
+                player:'#firstLottie',
+                actions: [
+                  {
+                    visibility: [0,1],
+                    type: "seek",
+                    frames: [0, 59]
+                  }
+                ]  
+              });
+              </script>
     
   </body>
 </html>
