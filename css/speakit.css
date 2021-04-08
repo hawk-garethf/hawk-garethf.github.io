@@ -62,7 +62,7 @@ video {
 }
 @media (min-width: 320px) and (max-width: 575px) {
   .jumbotron {
-    height: 280px;
+    height: 255px;
   }
 }
 /*
@@ -350,6 +350,9 @@ div.container-mod2-1 div.container-mod2-2{
   .padding-mod3{
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .padding-mod4-header{
+    padding: 100px 0 50px 0;
   }
   .text-align-top-mod4{
     padding-top: 10px;
