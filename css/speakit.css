@@ -392,6 +392,9 @@ div.container-mod2-1 div.container-mod2-2{
   .pad-top-50-mod4{
     padding-top: 180px;
   }
+  .lottieCenter{
+    padding-left: 35px;
+  }
   .padding-mod5-text{
     padding-top: 150px;
   }
@@ -467,14 +470,11 @@ div.container-mod2-1 div.container-mod2-2{
     padding-bottom: 20px;
     padding-top: 40px;
   }
-  .lottieAnimations{
-    
-  }
-  .lottieCenter{
-    text-align: center;
-  }
   .pad-top-50-mod4{
     padding-top: 180px;
+  }
+  .lottieCenter{
+    padding-left: 65px;
   }
   .padding-mod5-text{
     padding-top: 150px;
