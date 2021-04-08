@@ -315,9 +315,13 @@ div.container-mod2-1 div.container-mod2-2{
     height: 90%;
   }
   */
+  .jumbotron {
+    margin-bottom: 30px;
+  }
   .mod-bg-img {
     width: 40%;
   }
+ 
   .pad-mod2-para2{
     padding: 200px 0 50px 15px;
   }
@@ -393,9 +397,10 @@ div.container-mod2-1 div.container-mod2-2{
     padding-top: 180px;
   }
   .lottieCenter{
-    padding-left: 65px;
+
     width: 300px !important;
     height: 300px !important;
+    text-align: center !important;
   }
   .padding-mod5-text{
     padding-top: 150px;
