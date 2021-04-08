@@ -393,7 +393,9 @@ div.container-mod2-1 div.container-mod2-2{
     padding-top: 180px;
   }
   .lottieCenter{
-    padding-left: 35px;
+    padding-left: 65px;
+    width: 300px;
+    height: 300px;
   }
   .padding-mod5-text{
     padding-top: 150px;
