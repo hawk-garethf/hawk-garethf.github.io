@@ -177,7 +177,7 @@ div.container-mod2-1 div.container-mod2-2{
 .pad-mod2-para2{
   padding: 280px 0 220px 0;
 }
-.highlight{
+/*.highlight{
   display:inline;
   width: max-content;
   background-size: 200% auto; 
@@ -203,7 +203,7 @@ div.container-mod2-1 div.container-mod2-2{
 @keyframes highlight {
   from {background-position: 0% 0;}
   to {background-position: -100% 0;}
-}
+}*/
 
 /* MOD3 */
 /* .underimg-mod3{
