@@ -307,9 +307,15 @@ div.container-mod2-1 div.container-mod2-2{
   background: #08b4c4;
 }
 
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 399px) {
 .pad-mod2-para2{
   padding: 10px 0 0 15px;
+}
+}
+
+@media (min-width: 400px) and (max-width: 575px) {
+.pad-mod2-para2{
+  padding: 200px 0 50px 15px;
 }
 }
 
@@ -327,10 +333,6 @@ div.container-mod2-1 div.container-mod2-2{
   .mod-bg-img {
     width: 40%;
   }
- 
-  .pad-mod2-para2{
-    padding: 200px 0 50px 15px;
-  }
   .text-size-mod2 h1{
     font-size: 1.8rem;
   }
@@ -347,7 +349,7 @@ div.container-mod2-1 div.container-mod2-2{
     z-index: 0;
     width: 100%;
     position: absolute;
-    padding: 160px 0 300px 0;
+    padding: 160px 0 200px 0;
     text-align: end;
 }
   .mod3-bg{
