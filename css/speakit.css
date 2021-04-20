@@ -307,6 +307,12 @@ div.container-mod2-1 div.container-mod2-2{
   background: #08b4c4;
 }
 
+@media (min-width: 320px) and (max-width: 400px) {
+.pad-mod2-para2{
+  padding: 100px 0 0 15px;
+}
+}
+
 @media (min-width: 320px) and (max-width: 575px) {
   
   /*
