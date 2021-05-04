@@ -107,39 +107,7 @@ video {
   position: relative;
   z-index: 2;
 }
-.fadein {
-  display: block;
-  color: #ffffff;
-  text-transform: none;
-  opacity: 1;
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-}
 
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:100;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:100;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:100;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:100;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:100;}
-}
 */
 
 /* MOD2 */
@@ -321,6 +289,39 @@ div.container-mod2-1 div.container-mod2-2{
 }
 .container-bg-blue {
   background: #08b4c4;
+}
+.fadein {
+  display: block;
+  color: #ffffff;
+  text-transform: none;
+  opacity: 1;
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:100;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:100;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:100;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:100;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:100;}
 }
 
 @media (min-width: 320px) and (max-width: 399px) {
