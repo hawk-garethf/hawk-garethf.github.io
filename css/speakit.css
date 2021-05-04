@@ -3,12 +3,34 @@ body {
   padding-top: 0rem;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.4;
 }
 
 /* HERO */
-
+.video-wrapper {
+  position: relative;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.video-wrapper video {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+/*
 video {
   position: absolute;
   top: 0;
@@ -16,7 +38,7 @@ video {
   width: 100%;
   height: auto;
 }
-
+*/
 .jumbotron {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -75,7 +97,7 @@ video {
   height: 1000px;
   padding: 25rem 2rem;
   border-radius: 0rem;
-  
+
 }
 .push-spaces
 {
@@ -132,7 +154,7 @@ video {
 }
  */
 
- /*
+/*
 div.container-mod2-1{
   position:relative;
 }
@@ -148,61 +170,61 @@ div.container-mod2-1 div.container-mod2-2{
 }
 */
 .container-mod2-2 {
-  margin:auto;
+  margin: auto;
   z-index: 1;
 }
 .mod-bg {
   z-index: 0;
   width: 100%;
-  position:absolute;
+  position: absolute;
   padding: 100px 0 200px 0;
   text-align: end;
-
 }
-.mod-bg img{
+.mod-bg img {
   max-width: 100%;
 }
 
-
-.pad-mod2-top{
+.pad-mod2-top {
   padding-top: 50px;
 }
-.pad-mod2-para1{
+.pad-mod2-para1 {
   padding-bottom: 50px;
 }
-.pad-mod2-para1-pad-right-30{
+.pad-mod2-para1-pad-right-30 {
   padding-right: 30px;
   color: #212529;
 }
-.pad-mod2-para2{
-  padding: 280px 0 220px 0;
+.pad-mod2-para2 {
+  padding: 380px 0 120px 0;
 }
-.highlight{
-  display:inline;
+.highlight {
+  display: inline;
   width: max-content;
-  background-size: 200% auto; 
-  background-image: linear-gradient(to right,#fff 50%,#EC355B 50%);
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #fff 50%, #ec355b 50%);
   background-position: 0% 0;
   animation-duration: 3s;
   animation-delay: 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   color: #212529;
-  
 }
-.highlight.active{
- animation-name: highlight;
- color: #ffffff;
-}
-.highlight.active::selection{
+.highlight.active {
   animation-name: highlight;
   color: #ffffff;
- }
-
+}
+.highlight.active::selection {
+  animation-name: highlight;
+  color: #ffffff;
+}
 
 @keyframes highlight {
-  from {background-position: 0% 0;}
-  to {background-position: -100% 0;}
+  from {
+    background-position: 0% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
 }
 
 /* MOD3 */
@@ -216,111 +238,104 @@ div.container-mod2-1 div.container-mod2-2{
   z-index: 0;
   position: absolute;
   text-align: start;
+}
 
-  
- }
-
-
- @media (min-width: 992px) and (max-width: 1679px) {
+@media (min-width: 992px) and (max-width: 1679px) {
   .mod3-bg {
     left: -200px;
   }
 }
-.mod3-bg img{
+.mod3-bg img {
   max-width: 100%;
   background-size: cover;
 }
 .container-mod3 {
-  margin:auto;
+  margin: auto;
   z-index: 1;
-  
 }
-.container-bg-pink{
-  background: linear-gradient(90deg,#ffffff 60%, #EC355B 40%);
+.container-bg-pink {
+  background: linear-gradient(90deg, #ffffff 60%, #ec355b 40%);
 }
 
-.text-white-pad-mod3{
+.text-white-pad-mod3 {
   padding-top: 100px;
   padding-bottom: 95px;
 }
-.width225-mod3{
+.width225-mod3 {
   width: 225px;
   height: 225px;
 }
 
-.padding-left-mod3{
+.padding-left-mod3 {
   padding-left: 250px;
 }
 
-
-.text-align-middle-pad{
+.text-align-middle-pad {
   padding-top: 2rem;
   padding-left: 3.5rem;
   padding-right: 2rem;
 }
 
-.pad-bottom-mod3{
+.pad-bottom-mod3 {
   padding-bottom: 40px;
 }
 
 /* MOD4 */
-.padding-mod4-header{
+.padding-mod4-header {
   padding: 250px 0 50px 0;
 }
-.underimg-mod4{
-  background-image: url('https://hawk-garethf.github.io/img/Speakers_mod4.png');
+.underimg-mod4 {
+  background-image: url("https://hawk-garethf.github.io/img/Speakers_mod4.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-
 }
 
-.height-270{
+.height-270 {
   height: 270px;
 }
 
-.text-align-top-mod4{
+.text-align-top-mod4 {
   padding-top: 110px;
 }
 
-.pad-top-50-mod4{
+.pad-top-50-mod4 {
   padding-top: 20px;
 }
 
 /* MOD5 */
-.padding-top-bottom-mod5{
+.padding-top-bottom-mod5 {
   padding: 100px 0 200px 0;
 }
 
-.padding-mod5-text{
+.padding-mod5-text {
   padding-top: 150px;
 }
-#firstLottie{
+#firstLottie {
   width: 400px;
   height: auto;
 }
 /* MOD6 */
-.padding-mod6-header{
+.padding-mod6-header {
   padding: 250px 0 250px 0;
 }
-.container-bg-blue{
+.container-bg-blue {
   background: #08b4c4;
 }
 
 @media (min-width: 320px) and (max-width: 399px) {
-.pad-mod2-para2{
-  padding: 100px 0 50px 15px;
-}
+  .pad-mod2-para2 {
+    padding: 100px 0 50px 15px;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 575px) {
-.pad-mod2-para2{
-  padding: 200px 0 50px 15px;
-}
+  .pad-mod2-para2 {
+    padding: 200px 0 50px 15px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
-  
   /*
   .underimg-mod2{
     background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
@@ -333,16 +348,16 @@ div.container-mod2-1 div.container-mod2-2{
   .mod-bg-img {
     width: 40%;
   }
-  .text-size-mod2 h1{
+  .text-size-mod2 h1 {
     font-size: 1.8rem;
   }
-  .mod2-margin-15{
+  .mod2-margin-15 {
     margin-right: 15px;
   }
-  .noshow-mob{
+  .noshow-mob {
     display: none;
   }
-  .noshow-mob-mod4{
+  .noshow-mob-mod4 {
     display: none;
   }
   .mod-bg {
@@ -351,83 +366,80 @@ div.container-mod2-1 div.container-mod2-2{
     position: absolute;
     padding: 160px 0 300px 0;
     text-align: end;
-}
-  .mod3-bg{
+  }
+  .mod3-bg {
     display: none !important;
   }
-  .padding-mod3{
+  .padding-mod3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .padding-mod4-header{
+  .padding-mod4-header {
     padding: 100px 0 50px 0;
   }
-  .text-align-top-mod4{
+  .text-align-top-mod4 {
     padding-top: 10px;
   }
-  .align-center-mod5{
+  .align-center-mod5 {
     text-align: center;
   }
-  .padding-mod5-text{
+  .padding-mod5-text {
     padding-bottom: 50px;
     padding-top: 0px;
   }
-  .underimg-mod3{
+  .underimg-mod3 {
     background-image: none;
   }
-  .container-bg-pink{
-    background: #EC355B;
+  .container-bg-pink {
+    background: #ec355b;
   }
-  .padding-mod3{
+  .padding-mod3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .noshow-mob-mod3{
+  .noshow-mob-mod3 {
     display: none;
   }
-  .align-center-mod3{
+  .align-center-mod3 {
     width: 100%;
     display: block;
     text-align: center;
   }
-  .text-align-middle-pad{
-    padding-top: .3rem;
+  .text-align-middle-pad {
+    padding-top: 0.3rem;
     padding-left: 2rem;
     text-align: center;
   }
-  .img-992-mod3{
+  .img-992-mod3 {
     height: 150px;
     width: 150px;
   }
-  .pad-bottom-mod3{
+  .pad-bottom-mod3 {
     padding-bottom: 20px;
     padding-top: 40px;
   }
 
-  .pad-top-50-mod4{
+  .pad-top-50-mod4 {
     padding-top: 180px;
   }
-  .lottieCenter{
-
+  .lottieCenter {
     width: 300px !important;
     height: 300px !important;
     text-align: center !important;
   }
-  .padding-mod5-text{
+  .padding-mod5-text {
     padding-top: 150px;
   }
-  
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  
-  .underimg-mod2{
-    background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1540.png');
+  .underimg-mod2 {
+    background-image: url("https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1540.png");
   }
-  .pad-mod2-para2{
+  .pad-mod2-para2 {
     padding-bottom: 100px;
   }
-  .text-size-mod2 h1{
+  .text-size-mod2 h1 {
     font-size: 2.1rem;
   }
   .mod-bg {
@@ -436,80 +448,76 @@ div.container-mod2-1 div.container-mod2-2{
     position: absolute;
     padding: 200px 0 300px 0;
     text-align: end;
-}
+  }
 
-  .padding-mod3{
+  .padding-mod3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .noshow-mob-mod4{
+  .noshow-mob-mod4 {
     display: none;
   }
-  .text-align-top-mod4{
+  .text-align-top-mod4 {
     padding-top: 10px;
   }
-  .align-center-mod5{
+  .align-center-mod5 {
     text-align: center;
   }
-  .padding-mod5-text{
+  .padding-mod5-text {
     padding-bottom: 50px;
     padding-top: 0px;
   }
-  .mod3-bg{
+  .mod3-bg {
     display: none !important;
   }
 
-  .container-bg-pink{
-    background: #EC355B;
+  .container-bg-pink {
+    background: #ec355b;
   }
-  .padding-mod3{
+  .padding-mod3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .noshow-mob-mod3{
+  .noshow-mob-mod3 {
     display: none;
   }
-  .align-center-mod3{
+  .align-center-mod3 {
     width: 100%;
     display: block;
     text-align: center;
   }
-  .text-align-middle-pad{
-    padding-top: .3rem;
+  .text-align-middle-pad {
+    padding-top: 0.3rem;
     padding-left: 2rem;
     text-align: center;
   }
-  .img-992-mod3{
+  .img-992-mod3 {
     height: 150px;
     width: 150px;
-
   }
-  .pad-bottom-mod3{
+  .pad-bottom-mod3 {
     padding-bottom: 20px;
     padding-top: 40px;
   }
-  .pad-top-50-mod4{
+  .pad-top-50-mod4 {
     padding-top: 180px;
   }
-  .lottieCenter{
+  .lottieCenter {
     padding-left: 65px;
   }
-  .padding-mod5-text{
+  .padding-mod5-text {
     padding-top: 150px;
   }
-
-  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  
-  .underimg-mod2{
-    background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png');
+  .underimg-mod2 {
+    background-image: url("https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1340.png");
   }
-  .pad-mod2-para2{
+  .pad-mod2-para2 {
     padding-bottom: 100px;
   }
-  .text-size-mod2 h1{
+  .text-size-mod2 h1 {
     font-size: 2.1rem;
   }
   .mod-bg {
@@ -518,55 +526,53 @@ div.container-mod2-1 div.container-mod2-2{
     position: absolute;
     padding: 250px 0 300px 0;
     text-align: end;
-}
-  .mod3-bg{
+  }
+  .mod3-bg {
     display: none !important;
   }
-  .container-bg-pink{
-    background: #EC355B;
+  .container-bg-pink {
+    background: #ec355b;
   }
-  .padding-mod3{
+  .padding-mod3 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .noshow-mob-mod3{
+  .noshow-mob-mod3 {
     display: none;
   }
-  .align-center-mod3{
+  .align-center-mod3 {
     width: 100%;
     display: block;
   }
-  .text-align-middle-pad{
+  .text-align-middle-pad {
     padding-top: 2rem;
     padding-left: 4.5rem;
     text-align: left;
   }
-  .img-992-mod3{
+  .img-992-mod3 {
     height: 150px;
     width: 150px;
   }
-  .noshow-mob-mod4{
+  .noshow-mob-mod4 {
     display: none;
   }
-  .text-align-top-mod4 h1{
+  .text-align-top-mod4 h1 {
     font-size: 1.8rem;
   }
-  .pad-top-50-mod4 h1{
+  .pad-top-50-mod4 h1 {
     font-size: 1.8rem;
   }
-  .text-align-top-mod4{
+  .text-align-top-mod4 {
     padding-top: 250px;
   }
-  .pad-top-50-mod4{
+  .pad-top-50-mod4 {
     padding-top: 70px;
   }
-  
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  
-  .underimg-mod2{
-    background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1180.png');
+  .underimg-mod2 {
+    background-image: url("https://hawk-garethf.github.io/img/hew_box_mockup_mod2_padtop_1400x1180.png");
   }
   .mod-bg {
     z-index: 0;
@@ -575,52 +581,52 @@ div.container-mod2-1 div.container-mod2-2{
     padding: 200px 0 300px 0;
     text-align: end;
   }
-  .text-white-pad-mod3{
+  .text-white-pad-mod3 {
     padding-top: 75px;
     padding-bottom: 60px;
   }
-  
+
   /*
   .container-bg-pink{
     background: #EC355B;
   }
   */
-  .pad-bottom-mod3{
+  .pad-bottom-mod3 {
     padding-bottom: 30px;
     padding-top: 9px;
     padding-left: 50px;
   }
-  .img-992-mod3{
+  .img-992-mod3 {
     height: 150px;
     width: 150px;
   }
-  .text-align-middle-pad{
+  .text-align-middle-pad {
     padding-top: 2rem;
     padding-left: 4rem;
   }
-  .noshow-mob-mod4{
+  .noshow-mob-mod4 {
     display: none;
   }
-  .text-align-top-mod4{
+  .text-align-top-mod4 {
     padding-top: 250px;
   }
-  .pad-top-50-mod4{ 
+  .pad-top-50-mod4 {
     padding-top: 150px;
   }
-  .text-align-top-mod4 h1{
+  .text-align-top-mod4 h1 {
     font-size: 1.8rem;
   }
-  .pad-top-50-mod4 h1{
+  .pad-top-50-mod4 h1 {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1240px) {
-  .pad-bottom-mod3{
+  .pad-bottom-mod3 {
     padding-left: 75px;
     padding-bottom: 20px;
   }
-  .img-992-mod3{
+  .img-992-mod3 {
     height: 170px;
     width: 170px;
   }
@@ -638,9 +644,7 @@ div.container-mod2-1 div.container-mod2-2{
 }
 
 @media (min-width: 1200px) {
-  
-  .underimg-mod2{
-    background-image: url('https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png');
+  .underimg-mod2 {
+    background-image: url("https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png");
   }
-
 }

@@ -9,7 +9,7 @@
 
     <title>SpeaKit.</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -https://hawk-garethf.github.io/-->
     <link href="https://hawk-garethf.github.io/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
@@ -18,57 +18,61 @@
     <script>window.jQuery || document.write('<script src="https://hawk-garethf.github.io/js/jquery-slim.min.js"><\/script>')</script>
     <script src="https://hawk-garethf.github.io/js/popper.min.js"></script>
     <script src="https://hawk-garethf.github.io/js/bootstrap.min.js"></script>
-    
+
     <script type="text/javascript">
       (function(window) {
-          function setupVideo()
-          {
+          var v = document.getElementById('videoElement');
+          function playVideo(videoElement) {
+                  document.getElementById('videoElement').play();
+                  window.removeEventListener('click', playVideo);
+          }
+          function setupVideo() {
               var v = document.getElementById('videoElement');
               v.addEventListener('mouseover', function() { this.controls = true; }, false);
               v.addEventListener('mouseout', function() { this.controls = false; }, false);
           }
-  
+              window.addEventListener('click', playVideo);
           window.addEventListener('load', setupVideo, false);
       })(window);
     </script>
     <script>
       highlight();
-  
+
         $(window).on("scroll", function(){
           highlight();
         });
-        
+
         function highlight(){
           var scroll = $(window).scrollTop();
           var height = $(window).height();
-        
+
           $(".highlight").each(function(){
             var pos = $(this).offset().top;
             if (scroll+height >= pos) {
               $(this).addClass("active");
-            } 
-            console.log(pos);
-            console.log(scroll);
+            }
+            //console.log(pos);
+            //console.log(scroll);
           });
-        }  
-    </script>    
+        }
+    </script>
 
 
   </head>
-  
+
 
   <body>
 
 <main role="main">
 
       <!-- MOD1 HERO -->
-      <div class="jumbotron">
-        <video autoplay height="auto" id="videoElement">
+      <div class="video-wrapper" >
+        <video autoplay preload id="videoElement">
           <source src="https://hawk-garethf.github.io/img/speakit_hero_1min.mp4" type="video/mp4">
         </video>
       </div>
 
-      
+
       <!--
       <div class="jumbotron">
         <div class="container push-spaces text-white">
@@ -83,8 +87,8 @@
       </div>
   <div class="container pad-mod2-top container-mod2-1">
     <section>
-      
-      
+
+
       <div class="container-mod2-2">
         <div class="row">
           <div class="col-md-12 pad-mod2-para1 text-size-mod2">
@@ -112,69 +116,69 @@
           </div>
         </div>
       </div>
-    </section> 
-  </div> 
+    </section>
+  </div>
         <!-- MOD3 Pink D module  -->
         <div class="container-bg-pink">
         <div class="mod3-bg">
           <img src="https://hawk-garethf.github.io/img/gbox_mod3_full.png">
         </div>
-    
-      <div class="container-mod3">  
+
+      <div class="container-mod3">
           <div class="text-white text-white-pad-mod3 padding-mod3 col-md-12">
               <div class="row">
-                
-                
+
+
                     <div class="col-md-6 noshow-mob-mod3">
                     </div>
-                    
+
                     <div class="col-md-2 pad-bottom-mod3 align-center-mod3 display-block-mod3">
-                      <img src="https://hawk-garethf.github.io/img/mic_mod3.png" width="180" height="180" class="img-992-mod3">      
+                      <img src="https://hawk-garethf.github.io/img/mic_mod3.png" width="180" height="180" class="img-992-mod3">
                     </div>
                     <div class="col-md-4 text-align-middle-pad align-center-mod3 display-block-mod3">
                       <h3>Mic Clip</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
-                    
+
                     <div class="col-md-6 noshow-mob-mod3">
                     </div>
-                  
+
                     <div class="col-md-2 pad-bottom-mod3 align-center-mod3 display-block-mod3">
-                      <img src="https://hawk-garethf.github.io/img/clicker_mod3.png" width="180" height="180" class="img-992-mod3">          
+                      <img src="https://hawk-garethf.github.io/img/clicker_mod3.png" width="180" height="180" class="img-992-mod3">
                     </div>
                     <div class="col-md-4 text-align-middle-pad align-center-mod3 display-block-mod3">
                       <h3>Clicker</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>            
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
-                    
+
                     <div class="col-md-6 noshow-mob-mod3">
                     </div>
-                
+
                     <div class="col-md-2 pad-bottom-mod3 align-center-mod3 display-block-mod3">
-                      <img src="https://hawk-garethf.github.io/img/light_mod3.png" width="180" height="180" class="img-992-mod3">           
+                      <img src="https://hawk-garethf.github.io/img/light_mod3.png" width="180" height="180" class="img-992-mod3">
                     </div>
                     <div class="col-md-4 text-align-middle-pad align-center-mod3 display-block-mod3">
                       <h3>Light</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>            
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
-                    
+
                     <div class="col-md-6 noshow-mob-mod3">
                     </div>
-                  
+
                     <div class="col-md-2 pad-bottom-mod3 align-center-mod3">
-                      <img src="https://hawk-garethf.github.io/img/vinyl_mod3.png" width="180" height="180" class="img-992-mod3">           
+                      <img src="https://hawk-garethf.github.io/img/vinyl_mod3.png" width="180" height="180" class="img-992-mod3">
                     </div>
                     <div class="col-md-4 text-align-middle-pad align-center-mod3 display-block-mod3">
                       <h3>Vinyl</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>            
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
               </div>
-          </div> 
-      </div>  
+          </div>
+      </div>
     </div>
       <!-- MOD4 header  -->
-      <div class="container"> 
-      <section> 
+      <div class="container">
+      <section>
           <div class="row padding-mod4-header">
             <div class="col-md-1"></div>
             <div class="col-md-10 text-center">
@@ -184,7 +188,7 @@
             </div>
             <div class="col-md-1"></div>
           </div>
-      </section> 
+      </section>
       </div>
       <!-- MOD4 body  -->
       <div class="container">
@@ -208,7 +212,7 @@
             </div>
           </div>
         </div>
-      </section>  
+      </section>
       </div>
       <!-- MOD5 record  -->
       <div class="container">
@@ -220,23 +224,23 @@
               <h1>SpeaKIT also arrives with a branded display asset, and detailed tips on how to present online. </h1>
             </div>
             <div class="col-md-5" id="lottieAnimations">
-              
+
               <lottie-player class="lottieCenter" id="firstLottie" src="https://assets8.lottiefiles.com/packages/lf20_ti3muvz2.json"  background="transparent"  speed="1"  style="width: 400px; height: 400px;"></lottie-player>
             </div>
-            
+
             <div class="col-md-1">
-              
+
             </div>
       </section>
-    </div> 
-    
+    </div>
+
   </div>
-  
+
  </main>
 <!-- MOD6 header  -->
-<div class="container-bg-blue"> 
-  <div class="container"> 
-    <section> 
+<div class="container-bg-blue">
+  <div class="container">
+    <section>
         <div class="row padding-mod6-header">
           <div class="col-md-1"></div>
           <div class="col-md-10 text-center text-white">
@@ -247,10 +251,9 @@
           </div>
           <div class="col-md-1"></div>
         </div>
-    </section> 
+    </section>
   </div>
 </div>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -270,9 +273,9 @@
                     type: "seek",
                     frames: [0, 150]
                   }
-                ]  
+                ]
               });
               </script>
-    
+
   </body>
 </html>
