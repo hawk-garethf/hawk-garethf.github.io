@@ -56,12 +56,7 @@
           });
         }
     </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script>
-    $(window).scroll(fuction(){
-      $(".fadein").css("opacity", 1 - $(window).scrollBottom() / 250)
-    });
-    </script>
+    
 
   </head>
 
@@ -248,8 +243,8 @@
     <section>
         <div class="row padding-mod6-header">
           <div class="col-md-1"></div>
-          <div class="col-md-10 text-center text-white">
-            <h1 class="bold fadein">
+          <div class="col-md-10 text-center text-white fade-in">
+            <h1 class="bold">
               <i>"At a time where we needed to move all our events online SpeaKit was an ideal solution!"</i>
             </h1>
             <p>Meeta Shulsberg. <br><strong>Google Partners team</strong></p>
@@ -282,5 +277,34 @@
               });
               </script>
 
+            <script>
+              const faders = document.querySelectorAll('.fade-in');
+
+              const appearOptions = {
+                threshold: 1
+                rootMargin: "0px 0px -100px 0px"
+              };
+
+              const appearOnScroll = new IntersectionObserver
+              (function(
+                entries,
+                appearOnScroll
+              ) {
+                entries.forEach(entry => {
+                  if (!entry.isIntersecting) {
+                  return;
+                } else {
+                  entry.target.classList.add("appear");
+                  appearOnScroll.unobserve(entry.target);
+                }
+                });
+              },
+              appearOptions);
+
+              faders.forEach(fader => {
+                appearOnScroll.observe(fader);
+              })
+
+              </script>
   </body>
 </html>

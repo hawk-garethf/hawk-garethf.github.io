@@ -288,6 +288,13 @@ div.container-mod2-1 div.container-mod2-2{
 .container-bg-blue {
   background: #08b4c4;
 }
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+  opacity: 1;
+}
 
 @media (min-width: 320px) and (max-width: 399px) {
   .pad-mod2-para2 {
