@@ -56,7 +56,11 @@
           });
         }
     </script>
-
+    <script type="text/javascript">
+    $(window).scroll(fuction(){
+      $(".fadein").css("opacity", 1 - $(window).scrollBottom() / 250)
+    });
+    </script>
 
   </head>
 
