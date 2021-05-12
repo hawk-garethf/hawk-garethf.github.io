@@ -250,7 +250,7 @@ div.container-mod2-1 div.container-mod2-2{
 
 /* MOD4 */
 .padding-mod4-header {
-  padding: 250px 0 50px 0;
+  padding: 100px 0 0 0;
 }
 .underimg-mod4 {
   background-image: url("https://hawk-garethf.github.io/img/Speakers_mod4.png");
@@ -617,6 +617,9 @@ div.container-mod2-1 div.container-mod2-2{
   }
   .pad-top-50-mod4 h1 {
     font-size: 1.8rem;
+  }
+  .padding-mod4-header {
+    padding: 250px 0 50px 0;
   }
 }
 
