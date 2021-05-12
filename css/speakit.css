@@ -273,19 +273,17 @@ div.container-mod2-1 div.container-mod2-2{
 
 /* MOD5 */
 .padding-top-bottom-mod5 {
-  padding: 100px 0 200px 0;
+  padding: 20px 0 100px 0;
 }
 
-.padding-mod5-text {
-  padding-top: 65px;
-}
+
 #firstLottie {
   width: 400px;
   height: auto;
 }
 /* MOD6 */
 .padding-mod6-header {
-  padding: 250px 0 250px 0;
+  padding: 175px 0 175px 0;
 }
 .container-bg-blue {
   background: #08b4c4;
@@ -621,6 +619,9 @@ div.container-mod2-1 div.container-mod2-2{
   .padding-mod4-header {
     padding: 200px 0 50px 0;
   }
+  .padding-mod5-text {
+    padding-top: 65px;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1240px) {
@@ -646,10 +647,16 @@ div.container-mod2-1 div.container-mod2-2{
     padding-left: 75px;
     padding-bottom: 20px;
   }*/
+  .padding-mod5-text {
+    padding-top: 85px;
+  }
 }
 
 @media (min-width: 1200px) {
   .underimg-mod2 {
     background-image: url("https://hawk-garethf.github.io/img/hew_box_mockup_mod2.png");
+  }
+  .padding-mod5-text {
+    padding-top: 85px;
   }
 }
