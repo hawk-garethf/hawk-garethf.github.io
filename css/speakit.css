@@ -398,7 +398,8 @@ div.container-mod2-1 div.container-mod2-2{
   .lottieCenter {
     width: 300px !important;
     height: 300px !important;
-    text-align: center !important;
+    margin: 0 auto;
+    
   }
 
 }
