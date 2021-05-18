@@ -432,10 +432,13 @@ div.container-mod2-1 div.container-mod2-2{
   }
   .lottieCenter {
     padding-left: 65px;
+    width: 300px !important;
+    height: 300px !important;
   }
   .padding-mod5-text {
     padding-top: 50px;
   }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -495,6 +498,10 @@ div.container-mod2-1 div.container-mod2-2{
   }
   .pad-top-50-mod4 {
     padding-top: 100px;
+  }
+  .lottieCenter {
+    width: 300px !important;
+    height: 300px !important;
   }
 }
 
