@@ -431,6 +431,12 @@ div.container-mod2-1 div.container-mod2-2{
   .pad-top-50-mod4 {
     padding-top: 180px;
   }
+  .padding-mod4-header {
+    padding: 30px;
+  }
+  .mod4-padding-bottom-30{
+    padding-bottom: 30px;
+  }
   .lottieCenter {
     width: 300px !important;
     height: 300px !important;
@@ -504,6 +510,9 @@ div.container-mod2-1 div.container-mod2-2{
   .padding-mod5-text h1 {
     font-size: 2rem;
   }
+  .padding-mod5-text {
+    padding-top: 20px;
+  }
   .pad-top-50-mod4 {
     padding-top: 100px;
   }
@@ -567,6 +576,9 @@ div.container-mod2-1 div.container-mod2-2{
   }
   .padding-mod5-text {
     padding-top: 65px;
+  }
+  .container-bg-blue{
+    margin-top: 50px;
   }
 }
 
