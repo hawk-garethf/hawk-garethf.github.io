@@ -357,7 +357,12 @@ div.container-mod2-1 div.container-mod2-2{
     margin: 0 auto;
     
   }
-
+  .padding-mod5-text{
+    padding-top: 0px;
+  }
+  .container-bg-blue{
+    margin-top: 50px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
