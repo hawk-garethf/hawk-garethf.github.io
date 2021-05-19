@@ -370,6 +370,7 @@ div.container-mod2-1 div.container-mod2-2{
   .text-size-mod2 h1 {
     font-size: 2.1rem;
   }
+  
   .mod-bg {
     z-index: 0;
     width: 100%;
@@ -495,6 +496,9 @@ div.container-mod2-1 div.container-mod2-2{
   }
   .text-align-top-mod4 {
     padding-top: 250px;
+  }
+  .padding-mod5-text h1 {
+    font-size: 2rem;
   }
   .pad-top-50-mod4 {
     padding-top: 100px;
